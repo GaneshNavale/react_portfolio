@@ -10,7 +10,7 @@ class Home extends Component {
     return (
       <Container>
           <Row>
-            <Col lg="4" md="12" className="mb-lg-0 mt-lg-5 text-center">
+            <Col lg="3" md="12" className="mb-lg-0 mt-lg-5 text-center">
               <Animation type="zoomIn">
                 <img src={profile} className="img-fluid rounded-circle mt-2 z-depth-1 profile-img" alt="Responsive image"/>
               </Animation>
@@ -44,9 +44,9 @@ class Home extends Component {
                 <Progress className="" value={80}></Progress>
               </p>
             </Col>
-            <Col lg="4" md="12" className="mb-lg-0 mt-lg-5 text-left">
+            <Col lg="5" md="12" className="mb-lg-0 mt-lg-5 text-left">
               <h3 className="text-center font-weight-bold text-uppercase">About Me..!</h3>
-              <p className="mt-5 pl-lg-5">
+              <p className="mt-4 pl-lg-5 text-justify">
                 I’m a programmer living in Mumbai. I type on the keyboards and sometimes it makes stuff happen to computers. Then I put it online.
                 I love making code readable so that it's easier to change. That involves a lot of refactoring, which I enjoy a lot!
                 Currently I work for Edcast and on whatever else I feel like.
