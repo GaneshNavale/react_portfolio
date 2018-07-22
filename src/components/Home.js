@@ -47,11 +47,11 @@ class Home extends Component {
             <Col lg="4" md="12" className="mb-lg-0 mt-lg-5 text-left">
               <h3 className="text-center font-weight-bold text-uppercase">About Me..!</h3>
               <p className="mt-5 pl-lg-5">
-                I’m a a programmer living in Mumbai. I type on the keyboards and sometimes it makes stuff happen to computers. Then I put it online.
-                I love making code readable so that it's easier to change. That involves a lot of refactoring, which I enjoy. A lot!
+                I’m a programmer living in Mumbai. I type on the keyboards and sometimes it makes stuff happen to computers. Then I put it online.
+                I love making code readable so that it's easier to change. That involves a lot of refactoring, which I enjoy a lot!
                 Currently I work for Edcast and on whatever else I feel like.
                 Ruby and RoR are my weapons of choice at the moment.
-                In my free time I do experiment with GoLang and also like to work with javascript frontend frameworks like #reactjs
+                In my free time I do experiment with #Golang and also like to work with javascript frontend frameworks like #reactjs
               </p>
             </Col>
           </Row>
