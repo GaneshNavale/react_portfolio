@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: left;
   color: #fff;
 }
 
@@ -8,7 +8,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 800px;
+  height: 100%;
 }
 
 footer.mt-4 {
@@ -17,4 +17,8 @@ footer.mt-4 {
 
 .mt-70 {
   margin-top: 70px !important;
+}
+
+img.profile-img {
+  height: 250px;
 }
