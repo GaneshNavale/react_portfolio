@@ -5,7 +5,8 @@ import Home from './Home';
 import Portfolio from './Portfolio';
 import Blog from './Blog';
 import Contact from './Contact';
-import Account from './Account'
+import Account from './Account';
+
 class NavBar extends React.Component {
   constructor(props) {
     super(props);
@@ -33,12 +34,12 @@ class NavBar extends React.Component {
   render() {
     return (
       <div>
-        <Navbar dark color={"bg-default"} expand="md" fixed="top" className="p-3">
+        <Navbar dark color={"bg-default"} expand="lg" fixed="top" className="p-3">
           <Container>
             <NavbarBrand href="/">
               <strong>Ganesh Navale</strong>
             </NavbarBrand>
-            { <NavbarToggler onClick = { this.onClick } />}
+            { !this.state.isWideEnough && <NavbarToggler onClick = { this.onClick } />}
             <Collapse isOpen = { this.state.collapse } navbar>
               <NavbarNav right>
                 <NavItem active>
@@ -60,15 +61,15 @@ class NavBar extends React.Component {
             </Collapse>
           </Container>
         </Navbar>
-        <Switch>
-          <div className="background mt-70">
+        <div className="background mt-70">
+          <Switch>
             <Route exact path='/' component={Home}/>
             <Route path='/portfolio' component={Portfolio}/>
             <Route path='/blog' component={Blog}/>
             <Route path='/contact' component={Contact}/>
             <Route path='/account' component={Account}/>
-          </div>
-        </Switch>
+          </Switch>
+        </div>
       </div>
     );
   }
