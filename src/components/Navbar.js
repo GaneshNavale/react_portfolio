@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
 import { Fa, Navbar, Container, NavbarBrand, NavbarNav, NavbarToggler, Collapse, NavItem, NavLink, DropdownToggle, DropdownMenu, DropdownItem } from 'mdbreact';
-import { BrowserRouter as Router } from 'react-router-dom';
-
+import { Switch, Route } from 'react-router-dom';
+import Home from './Home';
+import Portfolio from './Portfolio';
+import Blog from './Blog';
+import Contact from './Contact';
+import Account from './Account'
 class NavBar extends React.Component {
   constructor(props) {
     super(props);
@@ -28,36 +32,44 @@ class NavBar extends React.Component {
 
   render() {
     return (
-      <Router>
-        <Navbar dark color="bg-default" expand="md" fixed="top" className="p-3">
+      <div>
+        <Navbar dark color={"bg-default"} expand="md" fixed="top" className="p-3">
           <Container>
             <NavbarBrand href="/">
               <strong>Ganesh Navale</strong>
             </NavbarBrand>
-            { !this.state.isWideEnough && <NavbarToggler onClick = { this.onClick } />}
+            { <NavbarToggler onClick = { this.onClick } />}
             <Collapse isOpen = { this.state.collapse } navbar>
               <NavbarNav right>
-                <NavItem>
-                  <NavLink to="#"><Fa icon="home"/>Home</NavLink>
-                  
-                </NavItem>
                 <NavItem active>
-                  <NavLink to="#">Portfolio</NavLink>
+                  <NavLink to="/"><Fa icon="home"/>Home</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink to="#">Blog</NavLink>
+                  <NavLink to="/portfolio">Portfolio</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink to="#"><Fa icon="address-book"/>Contact</NavLink>
+                  <NavLink to="/blog">Blog</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink to="#"><Fa icon="user"/>Account</NavLink>
+                  <NavLink to="/contact"><Fa icon="address-book"/>Contact</NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink to="/account"><Fa icon="user"/>Account</NavLink>
                 </NavItem>
               </NavbarNav>
             </Collapse>
           </Container>
         </Navbar>
-      </Router>
+        <Switch>
+          <div className="background mt-70">
+            <Route exact path='/' component={Home}/>
+            <Route path='/portfolio' component={Portfolio}/>
+            <Route path='/blog' component={Blog}/>
+            <Route path='/contact' component={Contact}/>
+            <Route path='/account' component={Account}/>
+          </div>
+        </Switch>
+      </div>
     );
   }
 }

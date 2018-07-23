@@ -9,10 +9,8 @@ import 'mdbreact/dist/css/mdb.css';
 class App extends Component {
   render() {
     return (
-      <div>
+      <div className="App">
         <Navbar/>
-        <div className="App background">
-        </div>
         <Footer/>
       </div>
     );
