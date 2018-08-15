@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+
+.background {
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 800px;
+}
+
+footer.mt-4 {
+  margin-top: 0px !important;
+}
