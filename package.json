@@ -2,6 +2,10 @@
   "name": "react_portfolio",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "npm": "3.10.10",
+    "node": "6.10.3"
+  },
   "dependencies": {
     "mdbreact": "^4.7.0",
     "react": "^16.4.2",
