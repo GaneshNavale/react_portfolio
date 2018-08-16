@@ -9,10 +9,10 @@ class Home extends Component {
   render() {
     return (
       <Container>
-          <Row>
+          <Row className="mb-5">
             <Col lg="3" md="12" className="mb-lg-0 mt-5 text-center">
               <Animation type="zoomIn">
-                <img src={profile} className="img-fluid rounded-circle mt-2 z-depth-1 profile-img" alt="Responsive image"/>
+                <img src={profile} className="img-fluid rounded-circle mt-5 z-depth-1 profile-img" alt="Responsive image"/>
               </Animation>
               <h5 className="text-uppercase font-weight-bold mt-4 mb-2">Ganesh Navale</h5>
               <p className="black-text">Software Engineer <p className="grey-text">@Edcast, Mumbai</p></p>
@@ -32,7 +32,7 @@ class Home extends Component {
             <Col lg="4" md="12" className="mb-lg-0 mt-5 text-center">
               <h3 className="m-5 text-center font-weight-bold text-uppercase">Skills..!</h3>
               <p className="mt-4 text-left">
-                <h5 className="mt-1">Ruby on Rails</h5>
+                <h5 className="">Ruby on Rails</h5>
                 <Progress className="" color="success" value={75}></Progress>
                 <h5 className="mt-1">JavaScript</h5>
                 <Progress className="" color="warning" value={70}></Progress>
@@ -42,6 +42,8 @@ class Home extends Component {
                 <Progress className="" color="danger" value={73}></Progress>
                 <h5 className="mt-1">Rspec</h5>
                 <Progress className="" value={80}></Progress>
+                <h5 className="mt-1">React Js</h5>
+                <Progress className="" color="yellow" value={80}></Progress>
               </p>
             </Col>
             <Col lg="5" md="12" className="mb-lg-0 mt-5 text-left">
