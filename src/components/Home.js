@@ -42,8 +42,6 @@ class Home extends Component {
                 <Progress className="" color="danger" value={73}></Progress>
                 <h5 className="mt-1">Rspec</h5>
                 <Progress className="" value={80}></Progress>
-                <h5 className="mt-1">React Js</h5>
-                <Progress className="" color="yellow" value={80}></Progress>
               </p>
             </Col>
             <Col lg="5" md="12" className="mb-lg-0 mt-5 text-left">
