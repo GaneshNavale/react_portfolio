@@ -31,7 +31,7 @@ class Home extends Component {
           </Col>
           <Col lg="7" md="12" className="mb-lg-0 mt-5">
             <h3 className="m-5 text-center font-weight-bold">About Me..!</h3>
-            <p className="p-lg-5 mt-lg-0 mt-5 text-justify">
+            <p className="pl-lg-5 pr-lg-5 mt-lg-0 mt-4 text-justify">
               I’m a programmer living in Mumbai. I type on the keyboards and sometimes it makes stuff happen to computers. Then I put it online.
               I love making code readable so that it's easier to change. That involves a lot of refactoring, which I enjoy a lot!
               Currently I work for Edcast and on whatever else I feel like.
