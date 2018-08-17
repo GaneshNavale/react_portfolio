@@ -15,7 +15,7 @@ class Home extends Component {
               <img src={profile} className="img-fluid rounded-circle mt-5 z-depth-1 profile-img" alt="Responsive image"/>
             </Animation>
             <h5 className="text-uppercase font-weight-bold mt-4 mb-2">Ganesh Navale</h5>
-            <p className="black-text">Software Engineer <p className="grey-text">@Edcast, Mumbai</p></p>
+            <p>Software Engineer @Edcast, Mumbai</p>
             <ul className="list-unstyled mb-3">
 
               <a className="p-2 fa-lg">
