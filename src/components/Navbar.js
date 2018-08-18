@@ -61,7 +61,7 @@ class NavBar extends React.Component {
             </Collapse>
           </Container>
         </Navbar>
-        <div className="background mt-70">
+        <div className="mt-70">
           <Switch>
             <Route exact path='/' component={Home}/>
             <Route path='/portfolio' component={Portfolio}/>

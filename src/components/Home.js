@@ -8,7 +8,8 @@ class Home extends Component {
   }
   render() {
     return (
-      <Container>
+      <Container fluid className="background">
+        <Container>
         <Row>
           <Col lg="5" md="12" className="mb-lg-0 mt-5 text-center">
             <Animation type="zoomIn">
@@ -76,6 +77,7 @@ class Home extends Component {
             </p>
           </Col>
         </Row>
+        </Container>
       </Container>
     );
   }
