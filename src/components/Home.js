@@ -13,7 +13,7 @@ class Home extends Component {
         <Row>
           <Col lg="5" md="12" className="mb-lg-0 mt-5 text-center">
             <Animation type="zoomIn">
-              <img src={profile} className="img-fluid rounded-circle mt-5 z-depth-1 profile-img" alt="Responsive image"/>
+              <img src={profile} className="rounded-circle mt-5 z-depth-1 profile-img" alt="Responsive image"/>
             </Animation>
             <h5 className="text-uppercase font-weight-bold mt-4 mb-2">Ganesh Navale</h5>
             <p>Software Engineer @Edcast, Mumbai</p>
