@@ -9,14 +9,15 @@ class FooterPage extends React.Component {
                     <Container>
                         <Row className="py-4 d-flex align-items-center">
                             <Col md="6" lg="4" className="text-center text-md-left">
-                                <i className="fa fa-envelope mr-3"> navaleganesh2011@gmail.com </i> 
-                                <i className="fa fa-phone mr-3"> +91 9637414895 </i> 
+                                <i className="fa fa-envelope mr-3"> navaleganesh2011@gmail.com </i>
+                                <i className="fa fa-phone mr-3"> +91 9637414895 </i>
                             </Col>
                             <Col md="6" lg="8" className="text-center text-md-right">
-                                <a className="fb-ic ml-0"><i className="fa fa-facebook white-text mr-4"> </i></a>
-                                <a className="tw-ic"><i className="fa fa-twitter white-text mr-4"> </i></a>
-                                <a className="gplus-ic"><i className="fa fa-google-plus white-text mr-4"> </i></a>
-                                <a className="li-ic"><i className="fa fa-linkedin white-text mr-4"> </i></a>                                
+                                <a href='https://github.com/GaneshNavale'> <i className="fa fa-github white-text mr-4"> </i></a>
+                                <a href='https://www.linkedin.com/in/ganesnavale'><i className="fa fa-linkedin white-text mr-4"> </i></a>
+                                <a href='https://stackoverflow.com/users/7804093/ganesh'><i className="fa fa-stack-overflow white-text mr-4"> </i></a>
+                                <a href='https://www.facebook.com/navale.ganesh.52'><i className="fa fa-facebook white-text mr-4"> </i></a>
+
                             </Col>
                         </Row>
                     </Container>
