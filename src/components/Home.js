@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Row, Animation, Col, Progress, Card, CardBody, Avatar, Mask, Fa, View, Button} from 'mdbreact';
-import profile from '../profile.jpg';
+import profile from '../profile1.jpeg';
 class Home extends Component {
   constructor(props) {
     super(props);
@@ -18,15 +18,17 @@ class Home extends Component {
             <h5 className="text-uppercase font-weight-bold mt-4 mb-2">Ganesh Navale</h5>
             <p>Software Engineer @Edcast, Mumbai</p>
             <ul className="list-unstyled mb-3">
-
-              <a className="p-2 fa-lg">
+              <a href='https://github.com/GaneshNavale' className="p-2 fa-lg">
+                <Fa icon="github" className="blue-text"/>
+              </a>
+              <a href='https://www.linkedin.com/in/ganesnavale' className="p-2 fa-lg">
+                <Fa icon="linkedin" className="blue-text"/>
+              </a>
+              <a href='https://stackoverflow.com/users/7804093/ganesh' className="p-2 fa-lg">
+                <Fa icon="stack-overflow" className="blue-text"/>
+              </a>
+              <a href="https://www.facebook.com/navale.ganesh.52" className="p-2 fa-lg">
                 <Fa icon="facebook" className="blue-text"/>
-              </a>
-              <a className="p-2 fa-lg">
-                <Fa icon="twitter" className="blue-text"/>
-              </a>
-              <a className="p-2 fa-lg">
-                <Fa icon="instagram" className="blue-text"/>
               </a>
             </ul>
           </Col>
@@ -72,7 +74,7 @@ class Home extends Component {
               <h6 className="black-text">RoR Developer / New Mumbai / June 2016 - Feb 2018</h6>
               <p className="text-justify"> First job after college - started as junior engineer and evolved into senior role.
                 Projects included constant feature development, codebase refatoring, app redesign, API migration, etc.
-                Briefly trained on Ruby and RoR development with unit testing.
+                Briefly trained on Ruby and RoR development with unit testing (Rspec).
               </p>
             </p>
           </Col>

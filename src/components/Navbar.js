@@ -39,7 +39,7 @@ class NavBar extends React.Component {
             <NavbarBrand href="/">
               <strong>Ganesh Navale</strong>
             </NavbarBrand>
-            { !this.state.isWideEnough && <NavbarToggler onClick = { this.onClick } />}
+            {/*{ !this.state.isWideEnough && <NavbarToggler onClick = { this.onClick } />}
             <Collapse isOpen = { this.state.collapse } navbar>
               <NavbarNav right>
                 <NavItem active>
@@ -58,16 +58,18 @@ class NavBar extends React.Component {
                   <NavLink to="/account"><Fa icon="user"/>Account</NavLink>
                 </NavItem>
               </NavbarNav>
-            </Collapse>
+            </Collapse> */}
           </Container>
         </Navbar>
         <div className="mt-70">
           <Switch>
-            <Route exact path='/' component={Home}/>
+            {/*
             <Route path='/portfolio' component={Portfolio}/>
             <Route path='/blog' component={Blog}/>
             <Route path='/contact' component={Contact}/>
             <Route path='/account' component={Account}/>
+            */}
+            <Route exact path='/' component={Home}/>
           </Switch>
         </div>
       </div>
