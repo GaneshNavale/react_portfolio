@@ -63,7 +63,7 @@ class Home extends Component {
           </Col>
           <Col lg="7" md="12">
             <p className="pl-lg-5 pr-lg-5 text-justify">
-              <h3 className="text-center font-weight-bold">Experiance..!</h3>
+              <h3 className="text-center font-weight-bold">Experience..!</h3>
               <h6 className="text-uppercase font-weight-bold mt-4 mb-2 text-justify">Edcast Asia Pvt. Ltd.</h6>
               <h6 className="black-text">Software Engineer / Mumbai / March 2018 - Present</h6>
               <p>Worked on EdCast Content Library to collect content across the web and provide it to users.
