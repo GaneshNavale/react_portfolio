@@ -7,7 +7,7 @@
     "node": "12.19.0"
   },
   "dependencies": {
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "mdbreact": "^4.7.0",
     "popper.js": "^1.14.4",
     "react": "^16.4.2",
